@@ -18,7 +18,7 @@ section * {
     justify-content: center;
 }
 .ubicacion {
-    background-color: #e99eaf;
+    background-color: #e99eafed;
     padding: 32px 64px;
     border-top: 10px solid #700215;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);

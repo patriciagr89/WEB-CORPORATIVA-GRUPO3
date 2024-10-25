@@ -25,7 +25,6 @@
 .fondoPlaza {
     background-image: url(../img/fondoplazamayor.jpg);
 }
-
 .fondoNoticias {
     background-image: url(../img/fondoNoticias.jpg);
 }
@@ -142,6 +141,9 @@ ul{
 .text-center {
     text-align: center;
 }
+.padding-15 {
+    padding: 0 15px 15px;
+}
 /*posición de fondos*/
 .noRepeat {
     background-repeat: no-repeat;
@@ -153,6 +155,12 @@ ul{
 .padding-proteccion {
     padding: 0 20px;
     margin-bottom: 30px;
+}
+/*imagenes*/
+.img-100 {
+    width: 100%;
+    max-width: 100%;
+    margin: 30px 0;
 }
 /*footer copyright*/
 .webFooter {
