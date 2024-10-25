@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scrollbar-color: #CD859A #f8f8f8;
 }
 /*fondos*/
 .fondoBarricas {
@@ -155,13 +156,15 @@ ul{
 }
 /*footer copyright*/
 .webFooter {
-    padding: 20px 10px;
+    min-height: 50px;
+    padding: 8px;
+    margin-top: 28px;
 }
 .webFooter p {
     color: white;
-    font-weight: 400;
     font-size: 13px;
     font-family: "Work Sans", sans-serif;
+    font-style: italic;
 }
 
 /*querries*/

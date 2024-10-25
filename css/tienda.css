@@ -71,7 +71,7 @@ input {
 }
 .infoProduct button {
     border: 2px solid #700215;
-    background-color: white;
+    background-color: transparent;
     color: #700215;
     padding: 15px 10px;
     cursor: pointer;
