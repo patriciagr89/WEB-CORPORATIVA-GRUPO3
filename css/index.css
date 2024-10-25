@@ -85,7 +85,7 @@ article {
 /*querries*/
 @media (max-width: 576px) {
     article {
-        font-size: 0.9em;
+        font-size: 0.90em;
     }
     .menu-noticias {
         font-size: 0.8em;

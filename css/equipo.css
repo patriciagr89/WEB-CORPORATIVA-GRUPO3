@@ -1,7 +1,3 @@
-section * {
-    font-family: "Work Sans", sans-serif;
-    color: #333;
-}
 .container {
     align-items: center;
     margin: auto;
@@ -20,7 +16,7 @@ section * {
 }
 #navContacto button {
     border: 1px solid #333;
-    background-color: transparent;
+    background-color: #edd8de41;
     border-radius: 3px;
     padding: 12px 24px;
     cursor: pointer;
@@ -30,6 +26,7 @@ section * {
 }
 #navContacto button a {
     text-decoration: none;
+    color: #333;
 }
 #navContacto button:hover {
     transform: scale(1.1);
@@ -43,6 +40,6 @@ section * {
 /*querries*/
 @media (max-width: 576px) {
     .container {
-        font-size: 15px;
+        font-size: 0.90em;
     }
 }

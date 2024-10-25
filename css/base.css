@@ -4,7 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scrollbar-color: #CD859A #f8f8f8;
+    scrollbar-color: #700215 #f8f8f8;
+}
+.font-sans {
+    font-family: "Work Sans", sans-serif;
+    color: #333;
 }
 /*fondos*/
 .fondoBarricas {
@@ -44,6 +48,7 @@ section {
 .subTitle {
     text-transform: uppercase;
     text-align: center;
+    font-family: "Sedan", serif;
 }
 .titleBox {
     position: absolute;

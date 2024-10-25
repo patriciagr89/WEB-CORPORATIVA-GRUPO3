@@ -1,40 +1,46 @@
-section * {
-    font-family: Arial, Helvetica, sans-serif;
-    color: whitesmoke;
-}
 .marginBox {
     min-height: 120px;
 }
-img {
-    width: 100%;
-    max-width: 100%;
-}
 .container {
-    font-size: 17px;
+    font-size: 0.95em;
     text-align: justify;
 }
 .container form {
-    padding-left: 5px;
+    padding-left: 10px;
 }
 .container input {
     color: #333;
 }
-.container fieldset {
-    border-width: 10px;
-    padding: 15px 15px;
-    margin: 10px;
+fieldset {
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: 20px 10px;
+    border: 1px solid;
+    border-top-color: #700215;
+    border-bottom-color: #700215;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    background-color: #edd8de41;
 }
-.container fieldset legend {
-    font-size: 25px;
-    font-family: cursive;
+legend {
+    font-size: 1.3em;
+    color: #700215;
+    padding: 0 13px;
+    font-weight: 500;
+    font-style: italic;
+}
+#evento-video {
+    max-width: 100%;
+    margin: 40px 0;
+    text-align: center;
+}
+.webFooter p {
+    color: #333;
 }
 
 /*querries*/
 @media (max-width: 576px) {
-    form {
-        font-size: 13px;
-    }
     .container {
-        font-size: 15px;
+        font-size: 0.90em;
     }
 }
